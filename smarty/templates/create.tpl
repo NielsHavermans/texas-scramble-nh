@@ -26,5 +26,5 @@
 </div>
 <div class="addgolferformsuccess">
 	<p>Golfer succesvol opgeslagen.</p>
-	<button id="backbtn"><a href="/">Terug naar overzicht</a></button>
+	<button id="backbtn"><a href="?refresh=1">Golfer toevoegen</a></button>
 </div>

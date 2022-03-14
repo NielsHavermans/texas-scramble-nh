@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.0, created on 2022-03-14 21:02:30
+/* Smarty version 4.1.0, created on 2022-03-14 21:26:20
   from 'C:\xampp\htdocs\sandbox\niels\texas-scramble-nh\smarty\templates\create.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.0',
-  'unifunc' => 'content_622f9f56c64f60_02291706',
+  'unifunc' => 'content_622fa4ec9ae442_56285829',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '6f2523ccbd22cfb70e330c9c22f60335a1cb6fa1' => 
     array (
       0 => 'C:\\xampp\\htdocs\\sandbox\\niels\\texas-scramble-nh\\smarty\\templates\\create.tpl',
-      1 => 1647288122,
+      1 => 1647289578,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_622f9f56c64f60_02291706 (Smarty_Internal_Template $_smarty_tpl) {
+function content_622fa4ec9ae442_56285829 (Smarty_Internal_Template $_smarty_tpl) {
 ?><div class="addgolferform">
 	<h3><?php echo (($tmp = $_smarty_tpl->tpl_vars['title']->value ?? null)===null||$tmp==='' ? 'Texas Scramble' ?? null : $tmp);?>
 </h3>
@@ -49,6 +49,6 @@ function content_622f9f56c64f60_02291706 (Smarty_Internal_Template $_smarty_tpl)
 </div>
 <div class="addgolferformsuccess">
 	<p>Golfer succesvol opgeslagen.</p>
-	<button id="backbtn"><a href="/">Terug naar overzicht</a></button>
+	<button id="backbtn"><a href="?refresh=1">Golfer toevoegen</a></button>
 </div><?php }
 }
