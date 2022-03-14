@@ -3,6 +3,7 @@
 	* Texas Scramble page to generate flights and create new golfers 
 	*
 	* Create a new database with provided SQL and set connection in classes/Database.php
+	* Check: SQL/competitors.sql
 	*/
 	 
 	// Init Texas Scramble
